@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poeple Counter</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="modal">
+        <h1>Poeple entered:</h1>
+        <div class="counter-div">
+            <span class="counter-btn minus-btn" id="decrease">-</span>
+            <h2 id="counter">0</h2>
+            <span class="counter-btn plus-btn" id="increase">+</span>
+        </div>
+        <button id="save-btn">Save</button>
+        <h3>Previous entires:</h1>
+        <div class="entries">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Time</th>
+                        <th>No. of People</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="total-counter">Total No. of People <span id="tcount">0</span></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
